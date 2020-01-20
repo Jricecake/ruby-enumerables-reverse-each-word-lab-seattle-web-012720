@@ -16,6 +16,6 @@ def reverse_each_word(sentence)
 #      final_sentence << "#{current_word} "
 #    end
 #   i += 1
- end
+# end
  reverse_sentence
 end
