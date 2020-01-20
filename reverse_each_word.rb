@@ -5,14 +5,13 @@ def reverse_each_word(sentence)
   reverse_sentence = starting_sentence_array.collect { |x| x.reverse }
   i = 0
 while i < reverse_sentence.length do
-    reverse_sentence[i] = starting_sentence_array[i].reverse
-    current_word = starting_sentence_array[i].reverse
-    if current_word == starting_sentence_array[-1].reverse
+    current_word = reverse_sentence[i]
+    if current_word == reverse_sentence[-1]
       final_sentence << "#{current_word}"
     else
       final_sentence << "#{current_word} "
     end
    i += 1
  end
- return reverse_sentence
+ return final_sentence
 end
