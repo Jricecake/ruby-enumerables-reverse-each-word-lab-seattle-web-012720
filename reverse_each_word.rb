@@ -1,3 +1,4 @@
+require 'pry'
 def reverse_each_word(sentence)
   starting_sentence_array = sentence.split
   i = 0
