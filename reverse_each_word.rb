@@ -9,7 +9,7 @@ def reverse_each_word(sentence)
     #  final_sentence << "#{current_word}"
     #else
     #  final_sentence << "#{current_word} "
-    end
+    #end
    i += 1
  end
  final_sentence
