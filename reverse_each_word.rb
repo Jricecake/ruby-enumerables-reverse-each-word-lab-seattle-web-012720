@@ -13,7 +13,7 @@ def reverse_each_word(sentence)
 #    else
 #      final_sentence << "#{current_word} "
 #    end
-   i += 1
+#   i += 1
  end
- reverse_sentence.collect { |n| puts n}
+ reverse_sentence
 end
