@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  starting_sentence_array = sentence.split.reverse
+  starting_sentence_array = sentence.split
   i = 0
   final_sentence = ""
   reverse_sentence = []
