@@ -3,13 +3,12 @@ def reverse_each_word(sentence)
   i = 0
   final_sentence = []
   while i < start.length do
-    final_sentence = (start[i].reverse).collect
-    #current_word = start[i].reverse
-    #if current_word == start[-1].reverse
-    #  final_sentence << "#{current_word}"
-    #else
-    #  final_sentence << "#{current_word} "
-    #end
+    current_word = start[i].reverse
+    if current_word == start[-1].reverse
+      final_sentence << "#{current_word}"
+    else
+      final_sentence << "#{current_word} "
+    end
    i += 1
  end
  final_sentence
