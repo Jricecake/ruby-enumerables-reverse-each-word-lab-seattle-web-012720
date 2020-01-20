@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   i = 0
   final_sentence = ""
   reverse_sentence = []
-  starting_sentence_array.collect { |x| 
+  starting_sentence_array.collect { |x| x.reverse }
   #while i < starting_sentence_array.length do
   
     reverse_sentence[i] = starting_sentence_array[i].reverse
