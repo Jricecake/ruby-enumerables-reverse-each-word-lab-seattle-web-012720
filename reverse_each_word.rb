@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   i = 0
   final_sentence = ""
   while i < start.length do
-   final_sentence += start[i].reverse
+   final_sentence += "${start[i].reverse} "
    i += 1
  end
  return final_sentence
