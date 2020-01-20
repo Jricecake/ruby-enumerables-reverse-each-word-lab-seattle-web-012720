@@ -3,7 +3,8 @@ def reverse_each_word(sentence)
   i = 0
   final_sentence = ""
   reverse_sentence = []
-  while i < starting_sentence_array.length do
+  starting_sentence_array
+  #while i < starting_sentence_array.length do
   
     reverse_sentence[i] = starting_sentence_array[i].reverse
 #    current_word = starting_sentence_array[i].reverse
