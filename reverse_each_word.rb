@@ -8,6 +8,7 @@ def reverse_each_word(sentence)
       final_sentence += "#{current_word}"
     else
       final_sentence += "#{current_word} "
+    end
    i += 1
  end
  return final_sentence
