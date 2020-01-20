@@ -11,5 +11,5 @@ def reverse_each_word(sentence)
     end
    i += 1
  end
- return final_sentence
+ final_sentence.collect
 end
