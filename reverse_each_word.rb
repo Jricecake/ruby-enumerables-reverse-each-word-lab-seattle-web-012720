@@ -14,5 +14,5 @@ def reverse_each_word(sentence)
 #    end
    i += 1
  end
- reverse_sentence
+ reverse_sentence.collect {
 end
